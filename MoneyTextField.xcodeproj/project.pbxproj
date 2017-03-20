@@ -13,6 +13,8 @@
 		6C87695A1E7F8A1E00B0C85A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C8769581E7F8A1E00B0C85A /* Main.storyboard */; };
 		6C87695C1E7F8A1E00B0C85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C87695B1E7F8A1E00B0C85A /* Assets.xcassets */; };
 		6C87695F1E7F8A1F00B0C85A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C87695D1E7F8A1F00B0C85A /* LaunchScreen.storyboard */; };
+		6C8769691E7F9C8400B0C85A /* CSMoneyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8769681E7F9C8400B0C85A /* CSMoneyTextField.m */; };
+		6C87696C1E7F9CC700B0C85A /* CSMoneyTFLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C87696B1E7F9CC700B0C85A /* CSMoneyTFLimit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		6C87695B1E7F8A1E00B0C85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C87695E1E7F8A1F00B0C85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C8769601E7F8A1F00B0C85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C8769671E7F9C8400B0C85A /* CSMoneyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMoneyTextField.h; sourceTree = "<group>"; };
+		6C8769681E7F9C8400B0C85A /* CSMoneyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMoneyTextField.m; sourceTree = "<group>"; };
+		6C87696A1E7F9CC700B0C85A /* CSMoneyTFLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMoneyTFLimit.h; sourceTree = "<group>"; };
+		6C87696B1E7F9CC700B0C85A /* CSMoneyTFLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMoneyTFLimit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		6C87694E1E7F8A1E00B0C85A /* MoneyTextField */ = {
 			isa = PBXGroup;
 			children = (
+				6C8769661E7F8A6200B0C85A /* CSMoneyTextField */,
 				6C8769521E7F8A1E00B0C85A /* AppDelegate.h */,
 				6C8769531E7F8A1E00B0C85A /* AppDelegate.m */,
 				6C8769551E7F8A1E00B0C85A /* ViewController.h */,
@@ -77,6 +84,17 @@
 				6C8769501E7F8A1E00B0C85A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C8769661E7F8A6200B0C85A /* CSMoneyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6C8769671E7F9C8400B0C85A /* CSMoneyTextField.h */,
+				6C8769681E7F9C8400B0C85A /* CSMoneyTextField.m */,
+				6C87696A1E7F9CC700B0C85A /* CSMoneyTFLimit.h */,
+				6C87696B1E7F9CC700B0C85A /* CSMoneyTFLimit.m */,
+			);
+			path = CSMoneyTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C8769691E7F9C8400B0C85A /* CSMoneyTextField.m in Sources */,
 				6C8769571E7F8A1E00B0C85A /* ViewController.m in Sources */,
+				6C87696C1E7F9CC700B0C85A /* CSMoneyTFLimit.m in Sources */,
 				6C8769541E7F8A1E00B0C85A /* AppDelegate.m in Sources */,
 				6C8769511E7F8A1E00B0C85A /* main.m in Sources */,
 			);
